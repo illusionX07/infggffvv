@@ -1,21 +1,21 @@
 {
-      "name": "RiZoeL X Spam",
+      "name": "Lightyagami X Spam",
       "description": "MOST POWERFUL + STABLE SPAM USERBOTS",
       "logo": "https://telegra.ph/file/db194f99e15db50f43c72.jpg",
       "keywords": [
         "telegram",
         "telethon",
         "telegram-bot",
-        "RiZoeLXSpam",
+        "lightyagamiXSpam",
         "SpamBots"
       ],   
-  "repository": "https://github.com/MrRizoel",
-  "website": "https://github.com/MrRizoel",
-  "success_url": "https://t.me/RiZoeLX",
+  "repository": "https://github.com/illusionX07",
+  "website": "https://github.com/illusionX07",
+  "success_url": "https://t.me/ILLUSION_07",
   "env": {
              "API_ID": {
         "description": "Fill Api ID Take this value from My.telegram.org",
-        "value": "",
+        "value": "11521397",
         "required": true
       },
       "ALIVE_PIC": {
@@ -25,7 +25,7 @@
       },
       "API_HASH": {
         "description": "Fill Api hash Take this value from My.telegram.org",
-        "value": "",
+        "value": "61818593f084d6a336b11529570adc54",
         "required": true
       },
       "STRING": {

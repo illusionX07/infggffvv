@@ -32,7 +32,7 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-@Riz.on(events.NewMessage(pattern=r"\.ping"))
+@Riz.on(events.NewMessage(pattern=r"\.ding"))
 @Riz2.on(events.NewMessage(pattern=r"\.ping"))
 @Riz3.on(events.NewMessage(pattern=r"\.ping"))
 @Riz4.on(events.NewMessage(pattern=r"\.ping"))
@@ -55,8 +55,8 @@ def get_readable_time(seconds: int) -> str:
 async def ping(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
-        text = "Pong!!..."
+        text = "Dong!!..."
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"█▀█ █▀█ █▄░█ █▀▀\n█▀▀ █▄█ █░▀█ █▄█\n\nϟ ʀɪᴢᴏᴇʟ X sᴘᴀᴍ ϟ︎ `{ms}` ᴍs")                       
+        await event.edit(f"█▀█ █▀█ █▄░█ █▀▀\n█▀▀ █▄█ █░▀█ █▄█\n\nϟ lightyagami X sᴘᴀᴍ ϟ︎ `{ms}` ᴍs")                       

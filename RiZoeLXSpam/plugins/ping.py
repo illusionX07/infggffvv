@@ -32,7 +32,7 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-@Riz.on(events.NewMessage(pattern=r"\.ding"))
+@Riz.on(events.NewMessage(pattern=r"\.ping"))
 @Riz2.on(events.NewMessage(pattern=r"\.ping"))
 @Riz3.on(events.NewMessage(pattern=r"\.ping"))
 @Riz4.on(events.NewMessage(pattern=r"\.ping"))
